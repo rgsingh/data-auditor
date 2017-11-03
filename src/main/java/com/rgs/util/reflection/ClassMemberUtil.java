@@ -19,7 +19,6 @@ public class ClassMemberUtil
         alteredCustomer.setSomeVO(alteredBasicDetails);
 
         Class original = originalCustomer.getClass();
-        Class altered = alteredCustomer.getClass();
         getMembers(original, originalCustomer, alteredCustomer);
 
     }
